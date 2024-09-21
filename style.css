@@ -95,9 +95,16 @@ main a:hover {
   padding-left: 1rem;
 }
 
+footer {
+  height: 5vh;
+  display: flex;
+  align-items: end;
+}
+
 .attribution {
   text-align: center;
   font-weight: bold;
+  width: 100%;
 }
 
 .attribution a {
@@ -107,6 +114,6 @@ main a:hover {
 
 @media (max-width: 450px) {
   .attribution {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
